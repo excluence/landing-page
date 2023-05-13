@@ -1,18 +1,16 @@
 import './App.css'
-import {Parallax, ParallaxLayer} from '@react-spring/parallax';
+import {Parallax} from '@react-spring/parallax';
 
 // Page Sections
-import HomeSection from './HomeSection'
+import HomeSection from './HomeSection';
+import PajamaCollectionSection from './PajamaCollectionSection';
 
 function App() {
 
   return (
     <>
-      <Parallax pages={1} >
-          <ParallaxLayer offset={0}>
-              <HomeSection />
-          </ParallaxLayer>
-      </Parallax>
+          <HomeSection />
+          <PajamaCollectionSection />
     </>
   )
 }

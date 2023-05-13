@@ -103,6 +103,7 @@ const palette = {
     },
 
 };
+export {palette};
 
 const theme = createTheme({
     typography: {
