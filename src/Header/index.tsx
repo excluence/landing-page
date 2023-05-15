@@ -1,7 +1,10 @@
 import { Box, Button, Typography } from "@mui/material"
 
 
-const Header: React.FC = () => {
+const Header: React.FC<{isVisible:boolean}> = (props: {isVisible: boolean}) => {
+    if (!props.isVisible) {
+        return <></>
+    }
     return <Box sx={{
         position: 'sticky',
         top: 0,
@@ -17,7 +20,8 @@ const Header: React.FC = () => {
         paddingTop: {
             md: '1rem',
             xs: '2rem'
-        }
+        },
+        visibility: props?.isVisible ? 'visible': 'hidden'
     }}>
         <Typography fontFamily={'Anurati'} sx={{
             position: 'absolute',

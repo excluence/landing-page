@@ -25,10 +25,13 @@ const SiteIntegrateSection: React.FC = () => {
             },
             height: {
                 md: '40rem',
-                xs: '60%'
+                xs: '50%'
             },
             left: 0,
-            top: '4rem',
+            top: {
+                md: '4rem',
+                xs: '25%'
+            },
             background: radialGradient
         }}></Box>
 
@@ -42,7 +45,7 @@ const SiteIntegrateSection: React.FC = () => {
             top: {
                 lg: '6rem',
                 md: '8rem',
-                xs: '20%'
+                xs: '35%'
             },
             width: {
                 xl: '37rem',
@@ -93,30 +96,30 @@ const SiteIntegrateSection: React.FC = () => {
             width: {
                 xl: '36.625rem',
                 lg: '32rem',
-                md: '22rem'
+                md: '22rem',
+                xs: '90%'
             },
             height: '7.5rem',
             left: {
                 xl: '46.56rem',
                 lg: '44rem',
-                md: '38rem'
+                md: '38rem',
+                xs: '12%'
             },
             top: {
                 xl: '30rem',
                 lg: '28rem',
-                md: '25rem'
-            },
-            visibility: {
-                md: 'visible',
-                xs: 'hidden'
-            }       
+                md: '25rem',
+                xs: '7rem'
+            }      
         }}>
             <Typography fontFamily={'MADE Outer Sans'} fontWeight={200} sx={{
                 textAlign: 'start',
                 fontSize: {
                     xl: '1.5rem',
                     lg: '1.5rem',
-                    md: '1.25rem'
+                    md: '1.25rem',
+                    xs: '1rem'
                 }
             }}>
             Your NFTs can be purchased from your merchandise store site. No need to
