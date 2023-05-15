@@ -1,14 +1,14 @@
 import { createTheme } from "@mui/material";
 
 /// Importing fonts
-import AnuratiRegular from "./assets/fonts/Anurati-Regular.otf";
-import OuterSansAltLight from "./assets/fonts/MADE Outer Sans Alt Light PERSONAL USE.otf";
-import OuterSansAltMedium from "./assets/fonts/MADE Outer Sans Alt Medium PERSONAL USE.otf";
-import OuterSansAltRegular from "./assets/fonts/MADE Outer Sans Alt Regular PERSONAL USE.otf";
-import OuterSansAltThin from "./assets/fonts/MADE Outer Sans Alt Thin PERSONAL USE.otf";
-import OuterSansThin from "./assets/fonts/MADE Outer Sans Thin PERSONAL USE.otf";
-import OuterSansLight from "./assets/fonts/MADE Outer Sans Light PERSONAL USE.otf";
-import OuterSansRegular from "./assets/fonts/MADE Outer Sans Regular PERSONAL USE.otf";
+// import AnuratiRegular from "./assets/fonts/Anurati-Regular.otf";
+// import OuterSansAltLight from "./assets/fonts/MADE Outer Sans Alt Light PERSONAL USE.otf";
+// import OuterSansAltMedium from "./assets/fonts/MADE Outer Sans Alt Medium PERSONAL USE.otf";
+// import OuterSansAltRegular from "./assets/fonts/MADE Outer Sans Alt Regular PERSONAL USE.otf";
+// import OuterSansAltThin from "./assets/fonts/MADE Outer Sans Alt Thin PERSONAL USE.otf";
+// import OuterSansThin from "./assets/fonts/MADE Outer Sans Thin PERSONAL USE.otf";
+// import OuterSansLight from "./assets/fonts/MADE Outer Sans Light PERSONAL USE.otf";
+// import OuterSansRegular from "./assets/fonts/MADE Outer Sans Regular PERSONAL USE.otf";
 
 
 
@@ -16,7 +16,7 @@ const anuratiFontFace = `
     @font-face {
         font-family: "Anurati";
         font-weight: 400;
-        src: url(${AnuratiRegular}) format("otf");
+        src: url("/fonts/Anurati-Regular.otf") format("otf");
     }
 `;
 
@@ -54,22 +54,22 @@ const outerSansAltFontFace = `
     @font-face {
         font-family: "MADE Outer Sans Alt;
         font-weight: 200;
-        src: local("MADE Outer Sans Alt") url(${OuterSansAltThin}) format("otf");
+        src: local("MADE Outer Sans Alt") url(/fonts/MADE Outer Sans Alt Thin PERSONAL USE.otf) format("otf");
     }
     @font-face {
         font-family: "MADE Outer Sans Alt;
         font-weight: 300;
-        src: local("MADE Outer Sans Alt") url(${OuterSansAltLight}) format("otf");
+        src: local("MADE Outer Sans Alt") url(/fonts/MADE Outer Sans Alt Light PERSONAL USE.otf) format("otf");
     }
     @font-face {
         font-family: "MADE Outer Sans Alt;
         font-weight: 400;
-        src: local("MADE Outer Sans Alt") url(${OuterSansAltRegular}) format("otf");
+        src: local("MADE Outer Sans Alt") url(/fonts/MADE Outer Sans Alt Regular PERSONAL USE.otf) format("otf");
     }
     @font-face {
         font-family: "MADE Outer Sans Alt;
         font-weight: 500;
-        src: local("MADE Outer Sans Alt") url(${OuterSansAltMedium}) format("otf");
+        src: local("MADE Outer Sans Alt") url(/fonts/MADE Outer Sans Alt Medium PERSONAL USE.otf) format("otf");
     }
 `;
 
@@ -77,17 +77,17 @@ const outerSansFontFace = `
     @font-face {
         font-family: "MADE Outer Sans";
         font-weight: 200;
-        src: local("MADE Outer Sans") url(${OuterSansThin}) format("otf");
+        src: local("MADE Outer Sans") url(/fonts/MADE Outer Sans Thin PERSONAL USE.otf) format("otf");
     }
     @font-face {
         font-family: "MADE Outer Sans";
         font-weight: 300;
-        src: local("MADE Outer Sans") url(${OuterSansLight}) format("otf");
+        src: local("MADE Outer Sans") url(/fonts/MADE Outer Sans Light PERSONAL USE.otf) format("otf");
     }
     @font-face {
         font-family: "MADE Outer Sans";
         font-weight: 400;
-        src: local("MADE Outer Sans") url(${OuterSansRegular}) format("otf");
+        src: local("MADE Outer Sans") url(/fonts/MADE Outer Sans Regular PERSONAL USE.otf) format("otf");
     }
 `;
 
