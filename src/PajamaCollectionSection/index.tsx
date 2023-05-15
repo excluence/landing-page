@@ -15,7 +15,9 @@ const PajamaCollectionSection: React.FC = () => {
             height: '100vh',
             width: '100%',
             position: 'sticky',
-            top: 0,
+            top: {
+                md: '1.2rem'
+            },
             backgroundColor: 'black'
         }}>
             {/*Highlight box*/}
