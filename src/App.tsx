@@ -6,13 +6,14 @@ import PajamaCollectionSection from './PajamaCollectionSection';
 import SiteIntegrateSection from './SiteIntegrateSection';
 import Header from './Header';
 import { useEffect, useState } from 'react';
+import FeatureSection from './FeaturesSection';
 
 function App() {
 
   const [isHeaderVisible, setIsHeaderVisible] = useState(false);
 
   useEffect(() => {
-    window.onscroll = (e) => {
+    window.onscroll = () => {
       setIsHeaderVisible(window.scrollY >= document.body.clientHeight * 0.8)
     }
   })
@@ -23,6 +24,7 @@ function App() {
           <HomeSection />
           <PajamaCollectionSection />
           <SiteIntegrateSection />
+          <FeatureSection />
     </>
   )
 }
