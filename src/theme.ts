@@ -16,7 +16,7 @@ const anuratiFontFace = `
     @font-face {
         font-family: "Anurati";
         font-weight: 400;
-        src: url("/fonts/Anurati-Regular.otf") format("otf");
+        src: url(https://firebasestorage.googleapis.com/v0/b/twitter-dapp.appspot.com/o/Anurati-Regular.otf?alt=media&token=e754f8f1-7298-47ce-9625-e25abdf1c55a) format("otf");
     }
 `;
 
@@ -50,44 +50,44 @@ const russoOneFontFace = `
 }
 `;
 
-const outerSansAltFontFace = `
-    @font-face {
-        font-family: "MADE Outer Sans Alt;
-        font-weight: 200;
-        src: local("MADE Outer Sans Alt") url(/fonts/MADE Outer Sans Alt Thin PERSONAL USE.otf) format("otf");
-    }
-    @font-face {
-        font-family: "MADE Outer Sans Alt;
-        font-weight: 300;
-        src: local("MADE Outer Sans Alt") url(/fonts/MADE Outer Sans Alt Light PERSONAL USE.otf) format("otf");
-    }
-    @font-face {
-        font-family: "MADE Outer Sans Alt;
-        font-weight: 400;
-        src: local("MADE Outer Sans Alt") url(/fonts/MADE Outer Sans Alt Regular PERSONAL USE.otf) format("otf");
-    }
-    @font-face {
-        font-family: "MADE Outer Sans Alt;
-        font-weight: 500;
-        src: local("MADE Outer Sans Alt") url(/fonts/MADE Outer Sans Alt Medium PERSONAL USE.otf) format("otf");
-    }
-`;
+// const outerSansAltFontFace = `
+//     @font-face {
+//         font-family: "MADE Outer Sans Alt;
+//         font-weight: 200;
+//         src: local("MADE Outer Sans Alt") url(/fonts/MADE Outer Sans Alt Thin PERSONAL USE.otf) format("otf");
+//     }
+//     @font-face {
+//         font-family: "MADE Outer Sans Alt;
+//         font-weight: 300;
+//         src: local("MADE Outer Sans Alt") url(/fonts/MADE Outer Sans Alt Light PERSONAL USE.otf) format("otf");
+//     }
+//     @font-face {
+//         font-family: "MADE Outer Sans Alt;
+//         font-weight: 400;
+//         src: local("MADE Outer Sans Alt") url(/fonts/MADE Outer Sans Alt Regular PERSONAL USE.otf) format("otf");
+//     }
+//     @font-face {
+//         font-family: "MADE Outer Sans Alt;
+//         font-weight: 500;
+//         src: local("MADE Outer Sans Alt") url(/fonts/MADE Outer Sans Alt Medium PERSONAL USE.otf) format("otf");
+//     }
+// `;
 
 const outerSansFontFace = `
     @font-face {
         font-family: "MADE Outer Sans";
         font-weight: 200;
-        src: local("MADE Outer Sans") url(/fonts/MADE Outer Sans Thin PERSONAL USE.otf) format("otf");
+        src: local("MADE Outer Sans") url(https://firebasestorage.googleapis.com/v0/b/twitter-dapp.appspot.com/o/MADE%20Outer%20Sans%20Thin%20PERSONAL%20USE.otf?alt=media&token=80880b30-5639-4aa9-a043-0b04162a9b1a) format("otf");
     }
     @font-face {
         font-family: "MADE Outer Sans";
         font-weight: 300;
-        src: local("MADE Outer Sans") url(/fonts/MADE Outer Sans Light PERSONAL USE.otf) format("otf");
+        src: local("MADE Outer Sans") url(https://firebasestorage.googleapis.com/v0/b/twitter-dapp.appspot.com/o/MADE%20Outer%20Sans%20Light%20PERSONAL%20USE.otf?alt=media&token=b7644faf-53bd-485e-8eb3-73aa1923b347) format("otf");
     }
     @font-face {
         font-family: "MADE Outer Sans";
         font-weight: 400;
-        src: local("MADE Outer Sans") url(/fonts/MADE Outer Sans Regular PERSONAL USE.otf) format("otf");
+        src: local("MADE Outer Sans") url(https://firebasestorage.googleapis.com/v0/b/twitter-dapp.appspot.com/o/MADE%20Outer%20Sans%20Regular%20PERSONAL%20USE.otf?alt=media&token=68cbdd78-fd8e-4c62-96fa-357aa591f9ae) format("otf");
     }
 `;
 
@@ -120,7 +120,7 @@ const theme = createTheme({
             [
                 russoOneFontFace,
                 anuratiFontFace,
-                outerSansAltFontFace,
+                // outerSansAltFontFace,
                 outerSansFontFace
             ].join('\n'),
             
