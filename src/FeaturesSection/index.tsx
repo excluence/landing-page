@@ -51,7 +51,7 @@ const FeatureSection: React.FC = () => {
             flexDirection: 'column',
             alignItems: 'center',
             paddingTop: {
-                md: '7%',
+                md: '5%',
                 xs: '25%'
             }
         }}>
@@ -104,7 +104,7 @@ const FeatureSection: React.FC = () => {
             </Box>
             <Typography variant="h6" sx={{
                 marginTop: {
-                    md: '2%',
+                    md: '1%',
                     xs: '1%'
                 },
                 fontSize: {

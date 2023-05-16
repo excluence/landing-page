@@ -7,6 +7,7 @@ import SiteIntegrateSection from './SiteIntegrateSection';
 import Header from './Header';
 import { useEffect, useState } from 'react';
 import FeatureSection from './FeaturesSection';
+import RequestAccessSection from './RequestAccessSection';
 
 function App() {
 
@@ -25,6 +26,7 @@ function App() {
           <PajamaCollectionSection />
           <SiteIntegrateSection />
           <FeatureSection />
+          <RequestAccessSection />
     </>
   )
 }

@@ -99,7 +99,8 @@ const palette = {
         default: "#01020A"
     },
     text: {
-        primary: "#FFFFFF"
+        primary: "#FFFFFF",
+        secondary: "#FE6F42"
     },
 
 };
