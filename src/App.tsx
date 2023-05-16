@@ -15,7 +15,9 @@ function App() {
 
   useEffect(() => {
     window.onscroll = () => {
-      setIsHeaderVisible(window.scrollY >= document.body.clientHeight * 0.8)
+      setIsHeaderVisible(window.scrollY >= document.body.clientHeight * 0.8 &&
+        window.scrollY <= document.body.clientHeight * 3.8
+        )
     }
   })
 

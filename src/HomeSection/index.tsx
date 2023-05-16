@@ -6,6 +6,7 @@ import WomenInDarkImg from '../assets/img/women_in_dark.png';
 const HomeSection: React.FC  = () => {
     return (
         <Box
+          id="home"
           sx={{
             height: '100vh',
             width: '100%',

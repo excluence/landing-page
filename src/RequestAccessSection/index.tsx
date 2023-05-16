@@ -4,7 +4,7 @@ import { Box, Button, TextField, Typography } from "@mui/material";
 import GoldenSkullImg from "../assets/img/golden_skull_armour.png";
 
 const RequestAccessSection: React.FC = () => {
-    return <Box sx={{
+    return <Box id="request-access-section" sx={{
             height: '100vh',
             width: '100%',
             position: 'sticky',

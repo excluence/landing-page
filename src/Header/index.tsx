@@ -5,6 +5,11 @@ const Header: React.FC<{isVisible:boolean}> = (props: {isVisible: boolean}) => {
     if (!props.isVisible) {
         return <></>
     }
+
+    const scrollToRequestAccess = () => {
+        document.body.querySelector('#request-access-section')?.scrollIntoView()
+    }
+
     return <Box sx={{
         position: 'sticky',
         top: 0,
@@ -34,7 +39,7 @@ const Header: React.FC<{isVisible:boolean}> = (props: {isVisible: boolean}) => {
                 md: '0.3rem'
             }
         }}>EXCLUENCE</Typography>
-        <Button sx={{
+        <Button onClick={() => {scrollToRequestAccess()}} disableElevation sx={{
             position: 'absolute',
             color: 'white',
             background: 'transparent',
@@ -53,7 +58,7 @@ const Header: React.FC<{isVisible:boolean}> = (props: {isVisible: boolean}) => {
         }}>
             Contact Us
         </Button>
-        <Button sx={{
+        <Button onClick={() => {scrollToRequestAccess()}} sx={{
             position: 'absolute',
             right: {
                 md: '10rem',
