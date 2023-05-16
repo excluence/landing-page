@@ -8,7 +8,7 @@ import RoyaltyImg from "../assets/img/royalty.png";
 import MembershipImg from "../assets/img/membership.png";
 
 
-const radialGradient =`radial-gradient(circle, rgba(253,114,70,1) 0%, rgba(0,0,0,1) 100%)`;
+// const radialGradient =`radial-gradient(circle, rgba(253,114,70,1) 0%, rgba(0,0,0,1) 100%)`;
 
 const featuresRecord: Array<FeatureCardDetails> = [
     {
