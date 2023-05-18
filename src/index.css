@@ -52,6 +52,7 @@ h1 {
 @font-face {
   font-family: "Anurati";
   font-weight: 400;
+  font-display: swap;
   src: url("/fonts/Anurati-Regular.otf") format("otf");
 }
 
@@ -85,15 +86,18 @@ h1 {
 @font-face {
   font-family: "MADE Outer Sans";
   font-weight: 200;
+  font-display: swap;
   src: local("MADE Outer Sans") url("/fonts/MADE Outer Sans Thin PERSONAL USE.otf") format("otf");
 }
 @font-face {
   font-family: "MADE Outer Sans";
   font-weight: 300;
+  font-display: swap;
   src: local("MADE Outer Sans") url("/fonts/MADE Outer Sans Light PERSONAL USE.otf") format("otf");
 }
 @font-face {
   font-family: "MADE Outer Sans";
   font-weight: 400;
+  font-display: swap;
   src: local("MADE Outer Sans") url("/fonts/MADE Outer Sans Regular PERSONAL USE.otf") format("otf");
 }
