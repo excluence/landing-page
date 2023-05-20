@@ -6,17 +6,6 @@ import GoldenSkullImg from "../assets/img/golden_skull_armour.png";
 const RequestAccessSection: React.FC = () => {
 
 
-    const handleSubmit = (event: React.FormEvent<HTMLFormElement>) => {
-        event.preventDefault();
-
-        const myForm = event.target as HTMLFormElement;
-        const formData = new FormData(myForm);
-        fetch("/", {
-            method: "POST",
-            headers: { "Content-Type": "application/x-www-form-urlencoded" },
-            body: new URLSearchParams(formData as any).toString(),
-        });
-    }
     return <Box id="request-access-section" sx={{
             height: '100vh',
             width: '100%',
@@ -49,11 +38,12 @@ const RequestAccessSection: React.FC = () => {
                 padding: '2rem',
             }}>
                 <Typography variant="h4">Request Access</Typography>
-                <form name="request-access" method="POST" style={{
+                <form name="contact" method="POST" style={{
                     padding: '0.5rem'
                 }}
-                onSubmit={handleSubmit}
-                >
+                data-netlify="true"
+                >   
+                    <input type="hidden" name="form-name" value="contact" />
                     <TextField variant="outlined" placeholder="Type your email" 
                     name="email"
                     fullWidth
